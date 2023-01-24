@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Login from './components/views/Login';
-import ErrorPage from './components/views/ErrorPage';
+import DataInput from './views/DataInput';
+import ErrorPage from './views/ErrorPage';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Login />,
+    element: <DataInput />,
     errorElement: <ErrorPage />
   }
 ])
